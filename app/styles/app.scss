@@ -16,6 +16,14 @@ img {
   max-width: 100%;
 }
 
+body{
+  background-image: url("../images/bamboo-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #D2E294;
+}
+
 .hero{
   height: 300px;
   background-image: url('https://www.vjv.com/media/315197/thailand-ayuthaya-ss.jpg');
@@ -36,4 +44,23 @@ img {
 
 .float-right{
   float: right
+}
+
+.pending-items{
+  border-bottom: 1px solid #167C32;
+  padding: 3px;
+  margin-bottom: 3px;
+}
+
+.well{
+  box-shadow: 3px 10px 5px 0px #79A45D;
+  background-color: white;
+}
+
+#order {
+
+  .list-group{
+    box-shadow: 3px 10px 5px 0px #79A45D;
+  }
+
 }

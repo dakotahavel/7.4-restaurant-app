@@ -6,9 +6,8 @@ var MenuItem = Backbone.Model.extend({
     title: 'item'
     , description: 'item description'
     , price: '$ price'
-    , pending: false
-    , complete: false
     , count: 0
+    , timestamp: new Date()
     // , type: 'item type'
   }
 });

@@ -6,16 +6,17 @@ var OrderItem = Backbone.Model.extend({
     title: 'item'
     , description: 'item description'
     , price: '$ price'
-    , pending: false
-    , complete: false
+    // , timestamp: new Date()
+    // , pending: false
+    // , complete: false
     // , type: 'order item type'
-    // , orderCount: 0
   }
 });
 
 var OrderItemCollection = Backbone.Collection.extend({
   model: OrderItem
   , url: 'http://tiny-lasagna-server.herokuapp.com/collections/dakotaorders'
+
 
 })
 
